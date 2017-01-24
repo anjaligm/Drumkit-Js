@@ -1,0 +1,47 @@
+.drumkit {
+    background: url('../img/bgimg.jpg');
+    background-repeat: no-repeat;
+    background: cover;
+    height: 100vh;
+}
+
+.keys {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.key {
+    float: left;
+    background: beige;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #000;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+
+
+kbd {
+    background: transparent!important;
+    font-size: 20px;
+    display: inherit;
+    color: rebeccapurple;
+    box-shadow: none!important;
+}
+
+.sound {
+    font-size: 11px;
+    color: chocolate;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: peru;
+    box-shadow: 4px;
+}
